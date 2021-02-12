@@ -23,13 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "early_medieval - overworld",
-        "high_medieval - overworld",
         "renaissance - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613083466",
+        "cacheTag": "1613103429",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,57 +41,11 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Early Medieval",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "early_medieval",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "early_medieval - overworld",
-            "last_rendertime": 1608504051,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                30,
-                80,
-                22
-            ],
-            "minZoom": 0,
-            "spawn": false,
-            "north_direction": 0
-        },
-        {
-            "name": "High Medieval",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "high_medieval",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "high_medieval - overworld",
-            "last_rendertime": 1596419654,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                30,
-                80,
-                22
-            ],
-            "minZoom": 0,
-            "spawn": false,
-            "north_direction": 0
-        },
-        {
             "name": "Renaissance",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "renaissance",
+            "path": "City 8",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "renaissance - overworld",
