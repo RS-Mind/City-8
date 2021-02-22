@@ -23,13 +23,13 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "early_medieval - overworld",
-        "high_medieval - overworld",
-        "renaissance - overworld"
+        "Early Medieval - overworld",
+        "High Medieval - overworld",
+        "Renaissance - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613105024",
+        "cacheTag": "1614026731",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,14 +43,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Early Medieval",
+            "name": "North",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "early_medieval",
+            "path": "Early North",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "early_medieval - overworld",
+            "world": "Early Medieval - overworld",
             "last_rendertime": 1608504051,
             "imgextension": "png",
             "isOverlay": false,
@@ -66,14 +66,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "High Medieval",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "high_medieval",
+            "path": "Early South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "high_medieval - overworld",
+            "world": "Early Medieval - overworld",
+            "last_rendertime": 1608504051,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                30,
+                80,
+                22
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "High North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "High Medieval - overworld",
             "last_rendertime": 1596419654,
             "imgextension": "png",
             "isOverlay": false,
@@ -89,14 +112,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Renaissance",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "renaissance",
+            "path": "High South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "renaissance - overworld",
+            "world": "High Medieval - overworld",
+            "last_rendertime": 1596419654,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                30,
+                80,
+                22
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Renaissance North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Renaissance - overworld",
             "last_rendertime": 1613081875,
             "imgextension": "png",
             "isOverlay": false,
@@ -110,6 +156,29 @@ var overviewerConfig = {
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
+        },
+        {
+            "name": "South",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Renaissance South",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Renaissance - overworld",
+            "last_rendertime": 1613081875,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                1000000,
+                96,
+                1000000
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
