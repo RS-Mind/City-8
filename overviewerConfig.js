@@ -149,9 +149,9 @@ var overviewerConfig = {
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                1000000,
-                96,
-                1000000
+                30,
+                80,
+                22
             ],
             "minZoom": 0,
             "spawn": false,
@@ -172,9 +172,9 @@ var overviewerConfig = {
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                1000000,
-                96,
-                1000000
+                30,
+                80,
+                22
             ],
             "minZoom": 0,
             "spawn": false,
